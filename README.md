@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/app_icon.png" alt="Lady Meetups Logo" width="120" height="120"/>
+  <img src="assets/icon.png" alt="Lady Meetups Logo" width="120" height="120"/>
 </p>
 
 <h1 align="center">Lady Meetups</h1>
