@@ -47,6 +47,17 @@ Lady Meetups provides a complete platform for:
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/1.PNG" width="180" alt="Welcome Screen"/>
+  <img src="assets/2.PNG" width="180" alt="Home Screen"/>
+  <img src="assets/3.PNG" width="180" alt="Event Details"/>
+  <img src="assets/4.PNG" width="180" alt="Notifications Screen"/>
+</p>
+
+---
+
 ## 👨‍💻 My Role & Contributions
 
 As the **Lead Flutter Developer**, I was responsible for:
@@ -112,38 +123,38 @@ As the **Lead Flutter Developer**, I was responsible for:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                      LADY MEETUPS ARCHITECTURE                       │
+│                      LADY MEETUPS ARCHITECTURE                      │
 ├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
+│                                                                     │
 │  ┌──────────────┐     ┌──────────────┐                              │
 │  │   Flutter    │     │   Flutter    │                              │
 │  │     iOS      │     │   Android    │                              │
 │  └──────┬───────┘     └──────┬───────┘                              │
-│         │                    │                                       │
-│         └────────────────────┘                                       │
-│                    │                                                 │
-│         ┌─────────▼─────────┐                                        │
-│         │   GetX State      │                                        │
-│         │   Management      │                                        │
-│         └─────────┬─────────┘                                        │
-│                   │                                                  │
-│    ┌──────────────┼──────────────┐                                   │
-│    │              │              │                                   │
-│ ┌──▼────┐   ┌─────▼─────┐   ┌───▼────────┐                          │
-│ │Firebase│   │  Stripe   │   │ Analytics  │                          │
-│ │Backend │   │ Payments  │   │  Services  │                          │
-│ └──┬─────┘   └───────────┘   └────────────┘                          │
-│    │                                                                 │
-│ ┌──┴─────────────────────────────────────────────────┐               │
-│ │ • Firestore (Database)                             │               │
-│ │ • Firebase Auth (Email, Google, Apple Sign-In)     │               │
-│ │ • Firebase Storage (Profile Images)                │               │
-│ │ • Cloud Functions (Stripe Webhooks, Sessions)      │               │
-│ │ • Firebase Messaging (Push Notifications)          │               │
-│ │ • Firebase Analytics + Adjust + Meta SDK           │               │
-│ └────────────────────────────────────────────────────┘               │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+│         │                    │                                      │
+│         └────────────────────┘                                      │
+│                    │                                                │
+│         ┌─────────▼─────────┐                                       │
+│         │   GetX State      │                                       │
+│         │   Management      │                                       │
+│         └─────────┬─────────┘                                       │
+│                   │                                                 │
+│    ┌──────────────┼──────────────┐                                  │
+│    │              │              │                                  │
+│ ┌──▼─────┐   ┌─────▼─────┐   ┌───▼────────┐                         │
+│ │Firebase│   │  Stripe   │   │ Analytics  │                         │
+│ │Backend │   │ Payments  │   │  Services  │                         │
+│ └──┬─────┘   └───────────┘   └────────────┘                         │
+│    │                                                                │
+│ ┌──┴─────────────────────────────────────────────────┐              │
+│ │ • Firestore (Database)                             │              │
+│ │ • Firebase Auth (Email, Google, Apple Sign-In)     │              │
+│ │ • Firebase Storage (Profile Images)                │              │
+│ │ • Cloud Functions (Stripe Webhooks, Sessions)      │              │
+│ │ • Firebase Messaging (Push Notifications)          │              │
+│ │ • Firebase Analytics + Adjust + Meta SDK           │              │
+│ └────────────────────────────────────────────────────┘              │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Project Structure
